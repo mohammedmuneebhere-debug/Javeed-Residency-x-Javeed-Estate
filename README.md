@@ -103,12 +103,13 @@ JWT_SECRET=your‑secret‑key
 ## 🖼️ Screenshots  
 Place your images inside a `/screenshots` folder and replace paths below:
 
-![Homepage](<img width="1903" height="903" alt="Screenshot 2025-11-22 202300" src="https://github.com/user-attachments/assets/4d730a36-de60-42a6-803e-dc15ef546487" />)
+![Homepage]<img width="1903" height="903" alt="Screenshot 2025-11-22 202300" src="https://github.com/user-attachments/assets/88a757ab-c74f-41f6-8b43-d6928d50dc56" />
 
-![Meet The Team](<img width="1919" height="911" alt="Screenshot 2025-11-22 202343" src="https://github.com/user-attachments/assets/f77b629d-42a3-4e70-a3fb-eef22929fe5b" />)
 
-![Login Page](<img width="1919" height="915" alt="Screenshot 2025-11-22 202407" src="https://github.com/user-attachments/assets/d3f9319c-efcb-4da1-9b55-ef24c8fb2d5f" />)
-)
+![Meet The Team]<img width="1919" height="911" alt="Screenshot 2025-11-22 202343" src="https://github.com/user-attachments/assets/f77b629d-42a3-4e70-a3fb-eef22929fe5b" />
+
+![Login Page]<img width="1919" height="915" alt="Screenshot 2025-11-22 202407" src="https://github.com/user-attachments/assets/d3f9319c-efcb-4da1-9b55-ef24c8fb2d5f" />
+
 
 ---
 
@@ -134,5 +135,6 @@ Currently **unlicensed** (private startup usage).
 **Mohammed Muneeb**  
 Developer & Designer  
 GitHub: @mohammedmuneebhere-debug
+
 
 
