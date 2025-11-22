@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@keyframes slide {
+  0% { transform: translateX(0%); }
+  25% { transform: translateX(-100%); }
+  50% { transform: translateX(-200%); }
+  75% { transform: translateX(-300%); }
+  100% { transform: translateX(0%); }
+}
+
+.carousel {
+  width: 400%;
+  animation: slide 20s infinite;
+}
+
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientShift 10s ease infinite;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 1s ease forwards;
+}
+
+.animate-fade-in {
+  animation: fadeUp 1.2s ease forwards;
+}
+
+.delay-150 {
+  animation-delay: 0.15s;
+}
+
+.delay-300 {
+  animation-delay: 0.3s;
+}
+.backdrop-blur-md {
+  backdrop-filter: blur(10px);
+}
+
+.nav-gradient {
+  background: linear-gradient(90deg, #1E3A8A 0%, #2A4BCF 100%);
+}
+
+
+@keyframes shimmerGold {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.bg-gradient-to-r {
+  background-size: 200% 200%;
+  animation: shimmerGold 6s ease infinite;
+}
+
+/* index.css - add these helpers */
+.text-gold { color: #FFD700; }
+.bg-gold { background-color: #FFD700; }
+.glass-card {
+  background: rgba(255,255,255,0.03);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.04);
+}
